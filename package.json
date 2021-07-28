@@ -1,0 +1,16 @@
+{
+  "name": "billinho",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "Jorge Kalmbach",
+  "license": "MIT",
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^1.5.2",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "prettier": "prettier --plugin @prettier/plugin-ruby --write '**/*'",
+    "prettier-check": "prettier --plugin @prettier/plugin-ruby --check '**/*'"
+  }
+}

@@ -1,0 +1,13 @@
+---
+en:
+  activerecord:
+    models:
+      student:
+        payment_method:
+          boleto: Ticket
+          credit_card: Credit Card
+      bill:
+        status:
+          open: Open
+          pending: Pending
+          paid: Paid
