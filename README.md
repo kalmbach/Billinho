@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project is built with Rails API
 
-Things you may want to cover:
+Install all dependencies
+```
+bundle
+```
 
-- Ruby version
+Setup Database
+```
+bin/rake db:setup
+bin/rake db:migrate
+```
 
-- System dependencies
-
-- Configuration
-
-- Database creation
-
-- Database initialization
-
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
+Run tests
+```
+bin/rake
+```
