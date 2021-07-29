@@ -8,7 +8,7 @@ class BillPresenter
   def as_json
     {
       id: bill.id,
-      due_date: bill.due_date,
+      due_date: bill.due_date.strftime('%d/%m/%Y'),
       amount: bill.amount,
       status: I18n.t("activerecord.models.bill.status.#{bill.status}")
     }
